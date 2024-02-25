@@ -52,8 +52,8 @@ void main() {
 #endif
 
 #ifdef FONT_TYPE_BITMAP_SMOOTH
-    const float center = 0.4;
-    const float radius = 0.1;
+    const float center = 0.5;
+    const float radius = 0.0;
     glyphColor = smoothstep(center - radius, center + radius, glyphColor);
 #endif
 
